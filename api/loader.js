@@ -7,7 +7,7 @@ export default function handler(req, res) {
       `${req.headers["x-forwarded-proto"] || "https"}://${req.headers.host}${req.url}`;
 
     const githubUrl =
-      "https://rizz-rxs.xyz/Onyx-Zero/api.php?key=170cad6a5e39ee56c5492ce31c913a38&_s=b5aa50a0ef931bf57843c876788dd14f39df37ae1cfb9f25c6bcbe1e1ddf0da9";
+      "https://raw.githubusercontent.com/x2winter/Zeion-Hub-Roblox/refs/heads/main/Build-a-boat.luau";
 
     if (isRoblox) {
       res.setHeader("Content-Type", "text/plain; charset=utf-8");
