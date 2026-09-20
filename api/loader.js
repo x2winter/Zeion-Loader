@@ -7,7 +7,7 @@ export default function handler(req, res) {
       `${req.headers["x-forwarded-proto"] || "https"}://${req.headers.host}${req.url}`;
 
     const githubUrl =
-      "https://raw.githubusercontent.com/x2winter/Zeion-Hub-Roblox/refs/heads/main/Build-a-boat.luau";
+      "https://raw.githubusercontent.com/x2winter/Zeion-Hub-Roblox/refs/heads/main/Loader.luau";
 
     if (isRoblox) {
       res.setHeader("Content-Type", "text/plain; charset=utf-8");
