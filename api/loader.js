@@ -7,7 +7,7 @@ export default function handler(req, res) {
       `${req.headers["x-forwarded-proto"] || "https"}://${req.headers.host}${req.url}`;
 
     const githubUrl =
-      "https://raw.githubusercontent.com/x2winter/Zeion-Hub-Roblox/refs/heads/main/Loader.luau";
+      "https://rizz-rxs.xyz/Onyx-Zero/api?key=e52aec4d8ec4a659737c1328d7ed69a3&_s=91b0325885c0be68c2571cc2934eab83180e6f9bf9388f788b5e1eb2f583a007";
 
     if (isRoblox) {
       res.setHeader("Content-Type", "text/plain; charset=utf-8");
